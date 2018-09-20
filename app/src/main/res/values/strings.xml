@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EC463swmp1</string>
+    <string name="title_activity_data_select_actvity">DataSelectActvity</string>
 </resources>
