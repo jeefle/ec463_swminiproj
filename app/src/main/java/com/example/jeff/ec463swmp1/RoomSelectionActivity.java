@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.jeff.ec463swmp1.RoomClasses.*;
 
 public class RoomSelectionActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+    public static final String RoomNum = "room number";
 
     private static final Class[] CLASSES = new Class[]{
             Room0.class,
@@ -48,8 +49,10 @@ public class RoomSelectionActivity extends AppCompatActivity implements AdapterV
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Class clicked = CLASSES[position];
-        startActivity(new Intent(this, clicked));
+
+        Intent intent = new Intent(this, DataSelectActvity.class);
+        intent.putExtra(RoomNum, position);
+        startActivity(intent);
     }
 
     public static class MyArrayAdapter extends ArrayAdapter<Class> {

@@ -72,7 +72,7 @@ public class PlotTempActivity extends AppCompatActivity {
                 break;
         }
 
-        
+
         chart = (LineChart) findViewById(R.id.linechart);
 
         LineDataSet lDs = new LineDataSet(TempMain,"Temperature");

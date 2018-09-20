@@ -10,19 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SignInActivity"
-            android:label="SignInActivity"></activity>
-        <activity android:name=".QueryActivity">
+            android:name=".SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            </intent-filter></activity>
+
         <activity
-            android:name=".DataSelectActvity"
-            android:label="@string/title_activity_data_select_actvity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name="com.example.jeff.ec463swmp1.DataSelectActvity"></activity>
+
+        <activity
+            android:name="com.example.jeff.ec463swmp1.PlotTempActivity"></activity>
+
+        <activity
+            android:name="com.example.jeff.ec463swmp1.RoomSelectionActivity"></activity>
+
     </application>
 
 </manifest>

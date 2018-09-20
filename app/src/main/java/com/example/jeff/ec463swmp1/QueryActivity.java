@@ -1,3 +1,4 @@
+/*
 package com.example.jeff.ec463swmp1;
 
 import android.os.Bundle;
@@ -51,3 +52,4 @@ public class QueryActivity extends AppCompatActivity {
     }
 }
 
+*/
