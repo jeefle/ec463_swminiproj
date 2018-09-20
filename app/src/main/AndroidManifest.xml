@@ -24,6 +24,9 @@
             android:name="com.example.jeff.ec463swmp1.PlotTempActivity"></activity>
 
         <activity
+            android:name="com.example.jeff.ec463swmp1.PlotHumActivity"></activity>
+
+        <activity
             android:name="com.example.jeff.ec463swmp1.RoomSelectionActivity"></activity>
 
     </application>

@@ -1,13 +1,12 @@
 package com.example.jeff.ec463swmp1;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.widget.TextView;
 
+import com.example.jeff.ec463swmp1.DataSelectActvity;
+import com.example.jeff.ec463swmp1.R;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
@@ -15,14 +14,13 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
 
-public class PlotTempActivity extends AppCompatActivity {
+public class PlotHumActivity extends AppCompatActivity {
 
     LineChart chart;
     FirebaseFirestore db;
@@ -77,7 +75,7 @@ public class PlotTempActivity extends AppCompatActivity {
 
     private void ReadRoom0() {
         DocumentReference user = db.collection("rooms").document("room0")
-                .collection("climate").document("temp0");
+                .collection("climate").document("hum0");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -208,7 +206,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom1() {
         DocumentReference user = db.collection("rooms").document("room1")
-                .collection("climate").document("temp1");
+                .collection("climate").document("hum1");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -338,7 +336,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom2() {
         DocumentReference user = db.collection("rooms").document("room2")
-                .collection("climate").document("temp2");
+                .collection("climate").document("hum2");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -468,7 +466,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom3() {
         DocumentReference user = db.collection("rooms").document("room3")
-                .collection("climate").document("temp3");
+                .collection("climate").document("hum3");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -599,7 +597,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom4() {
         DocumentReference user = db.collection("rooms").document("room4")
-                .collection("climate").document("temp4");
+                .collection("climate").document("hum4");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -729,7 +727,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom5() {
         DocumentReference user = db.collection("rooms").document("room5")
-                .collection("climate").document("temp5");
+                .collection("climate").document("hum5");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -859,7 +857,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom6() {
         DocumentReference user = db.collection("rooms").document("room6")
-                .collection("climate").document("temp6");
+                .collection("climate").document("hum6");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -990,7 +988,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom7() {
         DocumentReference user = db.collection("rooms").document("room7")
-                .collection("climate").document("temp7");
+                .collection("climate").document("hum7");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -1120,7 +1118,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom8() {
         DocumentReference user = db.collection("rooms").document("room8")
-                .collection("climate").document("temp8");
+                .collection("climate").document("hum8");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -1251,7 +1249,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom9() {
         DocumentReference user = db.collection("rooms").document("room9")
-                .collection("climate").document("temp9");
+                .collection("climate").document("hum9");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -1382,7 +1380,7 @@ public class PlotTempActivity extends AppCompatActivity {
     }
     private void ReadRoom10() {
         DocumentReference user = db.collection("rooms").document("room10")
-                .collection("climate").document("temp10");
+                .collection("climate").document("hum10");
         user.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {

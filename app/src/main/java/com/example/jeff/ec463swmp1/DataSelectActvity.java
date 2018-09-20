@@ -25,7 +25,7 @@ public class DataSelectActvity extends AppCompatActivity {
     }
 
     public void showHumidity(View view) {
-        Intent intent = new Intent(this, PlotTempActivity.class);
+        Intent intent = new Intent(this, PlotHumActivity.class);
         int room = getIntent().getIntExtra(RoomSelectionActivity.RoomNum, 0);
         intent.putExtra(RoomNum, room);
         startActivity(intent);
