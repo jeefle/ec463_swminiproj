@@ -11,6 +11,33 @@ To run the app on an emulator, download Android Studio and use the VCS function 
 
 This will clone the repository. After, click on Run, and run the app on an emulator (Android 21 and up)
 
+## Database Design
+
+The database used was a NoSQL type database with a collection/document structure. This allows us to more easily parse to create time series plots. While both SQL and NoSQL databases are viable options, we were in favor of NoSQL for the ease of use and deploymet speed.
+
+Our database was created using the nested collection/document structure in the following manner:
+
+```
+collection: rooms
+	document: room0
+		collection: climate
+			document: humidity
+				00:00: 50
+				01:00: 22
+				...
+			document: temperature
+				00:00: 13
+				01:00: 96
+				...
+	document: room1
+		collection: climate
+			document: humidity
+				...
+			...
+		...
+	...
+```
+
 ## Unit Tests
 
 The main functions of this app are to login, select a room, and view the room's temperature and humidity plots.
