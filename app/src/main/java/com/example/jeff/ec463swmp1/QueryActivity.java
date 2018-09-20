@@ -1,4 +1,4 @@
-package com.example.jleong.ec463_sw_miniproj;
+package com.example.jeff.ec463swmp1;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
