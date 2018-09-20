@@ -36,7 +36,7 @@ Select Humidity - Confirms MVP functionality
 * Android Studio - IDE
 * Google Sign-In - Authentication
 * Google Cloud Firestore - Cloud database
-* MPAndroid Chart
+* MPAndroid Chart - Plotting Library
 
 ## Authors
 
