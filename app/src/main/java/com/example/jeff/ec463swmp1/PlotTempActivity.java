@@ -1,5 +1,6 @@
 package com.example.jeff.ec463swmp1;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,6 +15,7 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -29,7 +31,7 @@ public class PlotTempActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.content_main);
 
         int room = getIntent().getIntExtra(DataSelectActvity.RoomNum, 0);
         db = FirebaseFirestore.getInstance();
@@ -70,6 +72,7 @@ public class PlotTempActivity extends AppCompatActivity {
                 break;
         }
 
+        
         chart = (LineChart) findViewById(R.id.linechart);
 
         LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
@@ -117,6 +120,12 @@ public class PlotTempActivity extends AppCompatActivity {
                     DocumentSnapshot doc = task.getResult();
                     ArrayList<Entry> Temp = new ArrayList<>();
 
+                    String val = doc.get("00:00").toString();
+                    Float f = Float.parseFloat(val);
+                    TempMain.add(new Entry((f),0));
+
+
+/*
                     Temp.add(new Entry((float)(doc.get("00:00")),0));
                     Temp.add(new Entry((float)(doc.get("01:00")),1));
                     Temp.add(new Entry((float)(doc.get("02:00")),2));
@@ -141,7 +150,9 @@ public class PlotTempActivity extends AppCompatActivity {
                     Temp.add(new Entry((float)(doc.get("21:00")),21));
                     Temp.add(new Entry((float)(doc.get("22:00")),22));
                     Temp.add(new Entry((float)(doc.get("23:00")),23));
-                    TempMain = Temp;
+                    */
+
+
                 }
             }
         })
