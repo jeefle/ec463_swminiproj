@@ -11,7 +11,7 @@ To run the app on an emulator, download Android Studio and use the VCS function 
 
 This will clone the repository. After, click on Run, and run the app on an emulator (Android 21 and up)
 
-### Break down into end to end tests
+### Unit Tests
 
 The main functions of this app are to login, select a room, and view the room's temperature and humidity plots.
 
