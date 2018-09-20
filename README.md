@@ -42,21 +42,28 @@ collection: rooms
 
 The main functions of this app are to login, select a room, and view the room's temperature and humidity plots.
 
-Part of Login Tested:
+Login Tested:
 ```
 Signing in using Google Sign-in - Confirms that the app recognizes sign in
 Invalid Login (Bad credentials) - Confirms that not everyone can enter the app with random credentials
 Having an account signed in already - Better UX where user doesn't have to sign in every time
 ```
-Parts of Selecting a Room Tested:
+Selecting a Room Tested:
 ```
 Clicking on specific room - Confirms MVP functionality
 ```
-Parts of Viewing Temp/Humidity plots Tested
+Viewing Temp/Humidity Plots Tested
 ```
-Select Temp - Confirms MVP functionality
-Select Humidity - Confirms MVP functionality
+Select Temp - Confirms MVP functionality (Temp plot is displayed)
+Select Humidity - Confirms MVP functionality (Humidity plot is displayed)
 ```
+Concurrent Users Tested:
+```
+App was loaded on a live device and an android emulator and used concurrently
+```
+
+The app has passed all these tests.
+
 ## Individual Contributions
 
 Jeff: Set up Cloud Database, Implemented Authentication, Created Query Example, Optomized UI
