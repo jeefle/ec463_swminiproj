@@ -5,7 +5,7 @@ This miniproject simulates a temperature and humidity monitor using an Android a
 
 ## Getting Started
 
-To run the app on a live Android device, simply download the .apk file from the Release folder onto your device and "allow installation from unknown sources." 
+To run the app on a live Android device, simply download the .apk file (EC463swmp1-release.apk) onto your device and "allow installation from unknown sources." 
 
 To run the app on an emulator, download Android Studio and use the VCS function -> import from version control -> import from github and enter https://github.com/jeefle/ec463_swminiproj.git -> clone. 
 
