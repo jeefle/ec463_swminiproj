@@ -19,7 +19,7 @@ Part of Login Tested:
 ```
 Signing in using Google Sign-in - Confirms that the app recognizes sign in
 Invalid Login (Bad credentials) - Confirms that not everyone can enter the app with random credentials
-Having an account signed in already - Better UX where you don't have to sign in every time
+Having an account signed in already - Better UX where user doesn't have to sign in every time
 ```
 Parts of Selecting a Room Tested:
 ```
