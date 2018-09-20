@@ -6,7 +6,7 @@ public class Room6 {
     public static final String RoomNum = "room number";
 
     Intent intent = new Intent(this, DataSelectActivity.class);
-    intent.putExtra(RoomNum, 0);
+    intent.putExtra(RoomNum, 6);
 
     startActivity(intent);
 
