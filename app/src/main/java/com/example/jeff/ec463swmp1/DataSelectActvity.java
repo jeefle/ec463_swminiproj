@@ -13,9 +13,7 @@ public class DataSelectActvity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_select_actvity);
-
     }
-
 
     public void showTemp(View view) {
         Intent intent = new Intent(this, PlotTempActivity.class);
