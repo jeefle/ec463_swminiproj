@@ -10,15 +10,15 @@ Plot data
 ```
 Create sample dataset on Google Cloud Firestore
 
-Query Data from Cloud
+Query Data from Cloud + Integrate with App
 
-Finish Authentication
+Finish Authentication + Integrate with App 
 ```
 ### Sprint 2:
 ```
-Plot queried data
+Plot queried data + Integrate Plotting Library
 
-Integration
+Integration of Authentication, Plotting, Querying
 
 Clean up UI
 ```
