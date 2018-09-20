@@ -157,7 +157,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -288,7 +288,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -418,7 +418,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -548,7 +548,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -679,7 +679,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -809,7 +809,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -939,7 +939,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -1070,7 +1070,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -1200,7 +1200,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -1331,7 +1331,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
@@ -1462,7 +1462,7 @@ public class PlotHumActivity extends AppCompatActivity {
                     TempMain.add(new Entry((f),23));
 
 
-                    LineDataSet lDs = new LineDataSet(TempMain,"Temperature");
+                    LineDataSet lDs = new LineDataSet(TempMain,"Humidity");
                     lDs.setColor(Color.BLUE);
 
                     ArrayList<String> time = new ArrayList<>();
