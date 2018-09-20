@@ -11,7 +11,7 @@ To run the app on an emulator, download Android Studio and use the VCS function 
 
 This will clone the repository. After, click on Run, and run the app on an emulator (Android 21 and up)
 
-### Unit Tests
+## Unit Tests
 
 The main functions of this app are to login, select a room, and view the room's temperature and humidity plots.
 
@@ -30,6 +30,11 @@ Parts of Viewing Temp/Humidity plots Tested
 Select Temp - Confirms MVP functionality
 Select Humidity - Confirms MVP functionality
 ```
+## Individual Contributions
+
+Jeff: Set up Cloud Database, Implemented Authentication, Created Query Example, Optomized UI
+Tariq: Queried Data Set, Plotted queried data, Optimized UI
+Both: Built UI, Testing, Integration 
 
 ## Built With
 
