@@ -33,7 +33,9 @@ Select Humidity - Confirms MVP functionality
 ## Individual Contributions
 
 Jeff: Set up Cloud Database, Implemented Authentication, Created Query Example, Optomized UI
+
 Tariq: Queried Data Set, Plotted queried data, Optimized UI
+
 Both: Built UI, Testing, Integration 
 
 ## Built With
